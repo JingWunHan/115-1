@@ -1,0 +1,58 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOS3cDBtcqevZMe0VLn9Wee",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/JingWunHan/115-1/blob/main/Untitled1.H2\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 12,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "F-mj2BTl2gmd",
+        "outputId": "3603a88b-b240-415a-a1da-6c0d02f81e3b"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "請輸入角度（度）：30\n",
+            "你計算的sin值為:0.50\n"
+          ]
+        }
+      ],
+      "source": [
+        "import math\n",
+        "d=float(input(\"請輸入角度（度）：\"))\n",
+        "a=d*(math.pi/180)\n",
+        "b=math.sin(a)\n",
+        "print(f\"你計算的sin值為:{b:.2f}\")"
+      ]
+    }
+  ]
+}
